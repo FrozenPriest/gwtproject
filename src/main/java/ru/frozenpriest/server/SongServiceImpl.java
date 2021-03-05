@@ -27,7 +27,6 @@ public class SongServiceImpl extends RemoteServiceServlet implements
 
         // Escape data from the client to avoid cross-site script vulnerabilities.
         input = escapeHtml(input);
-        System.out.println("IS IT REALLY WORKING&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
 
         return SongRepository.getSongs(input);
     }

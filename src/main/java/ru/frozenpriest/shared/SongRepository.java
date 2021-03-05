@@ -31,8 +31,7 @@ public class SongRepository {
         for (int i = 0; i < 5; i++) {
             list.add(getSong(i));
         }
-        System.out.println("REpository:   ");
-        System.out.println(list);
+
         return list;
     }
 }
